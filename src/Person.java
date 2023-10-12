@@ -9,6 +9,13 @@ public class Person {
         System.out.println(this);
     }
 
+    public Person(String firstName, String lastName, int birthYear, int birthMonth, int birthDay) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.birthYear = birthYear;
+        this.birthMonth = birthMonth;
+        this.birthDay = birthDay;
+    }
 
     public String toString(){
         return "Vezetéknév: " + lastName + "\nKeresztnév: " + firstName + "\nSzületési dátum: "
